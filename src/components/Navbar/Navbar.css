@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&family=Inter:wght@500&family=K2D:wght@800&family=Lato:wght@300;700&family=Love+Ya+Like+A+Sister&family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+.navWrapper{
+    position: sticky;
+    top: 0px;
+   z-index: 1;
+width: 100%;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #efe7e7;
+border-bottom: 2px solid rgb(214, 212, 212);
+box-shadow: 2px 3px 5px rgb(190, 187, 187);
+}
+.navcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    height: 100px;
+    padding-top: 10px;
+}
+.covlogContianer{
+    width: 80px;
+    flex: 1;
+}
+.covlogo{
+    width: 70%;
+}
+.locationContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  flex: 2;
+}
+.locationHeadContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   }
+   .downarrow{
+    margin-left:5px;
+   }
+.locationimgContainer{
+    width: 50px;
+}
+.location{
+    width: 100%;
+    color: rgb(54, 53, 52);
+    
+}
+.locationDescriptionContainer{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+     text-align: left;
+}
+.locDescsubhead{
+    font-weight: 500;
+    font-family:  sans-serif;
+    font-size: 10px;
+    color: black;
+}
+.searchBarContainer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 3;
+   
+}
+.searchIconContainer{
+    position: absolute;
+    right:calc(100% - 90%);
+    top: 6px;
+    width: 25px;
+}
+.searhArea{
+    background-color:#f8f8f8;
+    height: 40px;
+    width: 295px;
+    border-radius: 5px;
+    border: 1px solid #cec9c9;
+    padding-left: 10px;
+    caret-color: red;
+    font-size: 14px;
+    
+}
+.searhArea:focus{
+    outline:1px solid #cec9c9; 
+}
+    
+.searchIcon{
+    width: 100%;
+}
+.categoriesContainer, .loginContainer, .NavCartContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    flex: 1;
+    cursor: pointer;
+}
+.categoriesIconContainer{
+    color: wheat;
+}
+.cartIcon,.loginIcon, .categoriesIcon{
+    margin-right: 10px;
+    
+}
+.cartnotification{
+    color: rgb(237, 228, 228);
+    font-weight: 700;
+border-radius: 60px;
+    text-align: center;
+    background-color: red;
+}
+.myLink{
+text-decoration: none;
+list-style: none;
+color: black;
+
+}
+.navmenuContainer{
+    width: 35px;
+    margin-left: 10px;
+    display: none;
+    position: relative;
+}
+.navmenu{
+    width: 100%;
+}
+.myDropDown{
+    
+    /* background-color: transparent; */
+    position: absolute;
+   display: flex;
+   flex-direction: column;
+    text-decoration: none;
+    list-style: none;
+    top:100px;
+ 
+    right: 0px;
+    width: 50%;
+    padding:10px 10px 5px 10px;
+    /* box-shadow: 3px 6px 10px rgb(171, 167, 167); */
+    list-style: none;
+    display: none;
+}
+.myDropDown label{
+ color: rgb(244, 59, 30);
+ text-decoration: none;
+   margin-bottom: 5px;
+   font-weight: 700;
+   font-size: 20px;
+   font-weight: 700;
+   padding:3px 0px 3px 10px ;
+   
+   box-shadow: 3px 6px 10px rgb(176, 176, 176);
+   margin-right: 10px;
+}
+
+@media screen and (max-width:1150px) {
+    .categoriesIcon,.categoryDesc, .loginContainer, .cartDes,.cartIcon,.cartnotification{
+        display: none;
+    }
+    .active{
+        
+    display: flex;
+    flex-direction: column;
+   
+    }
+    .searchIconContainer{
+        right: 21%;
+    }
+    .searhArea{
+        font-size: 1vw;
+        width: 60%;
+    }
+    .navmenuContainer{
+        display: block;
+        width: 25px;
+    }
+}
+@media screen and (max-width:750px) {
+    .navcontainer{
+        width: 90%;
+    }
+    .navcontainer{
+        justify-content: space-between;
+    }
+    .covlogContianer{
+        width: 100px;
+        
+    }
+    .covlogo{
+        width: 100%;
+    }
+    .locationimgContainer{
+        width: 30px;
+    }
+   .locDescHead{
+    font-size: 14px;
+    color: wheat;
+   }
+    
+    .locDescsubhead{
+        font-size: 6px;
+        color: rgb(26, 25, 25);
+    }
+    .searhArea{
+        font-size: 10px;
+        width: 60%;
+        height:  25px;
+    }
+    .searhArea::placeholder{
+        color: transparent;
+    }
+    .searchIconContainer{
+        top:4px;
+        width: 13px;
+        flex: 1;
+    }
+  
+}
+@media screen and (max-width:500px) {
+.myDropDown label{
+    font-size: 10px;
+}
+.myDropDown {
+    width: 120px;
+}
+}

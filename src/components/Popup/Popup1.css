@@ -1,0 +1,19 @@
+.Popup1Container{
+    position: fixed;
+    left: 60%;
+    top: 90px;
+}
+@media screen and (max-width:1150px) {
+    .Popup1Container{
+        left: 20%;
+        top: 210px;
+    }
+
+}
+@media screen and (max-width:500px) {
+    .Popup1Container{
+        left: 0%;
+        top: 180px;
+    }
+
+}

@@ -1,0 +1,1089 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "category": "Todays Deals",
+      "image": "Todays_Deal_1.png",
+      "subcategory": []
+    },
+    {
+      "id": 2,
+      "category": "Chicken",
+      "image": "Chicken1.png",
+      "subcategory": [
+        "Curry Cuts",
+        "Boneless & Mince",
+        "Speciality Cuts",
+        "Offals",
+        "Combos",
+        "Exotic",
+        "Premium Cuts"
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Fish & Seafood",
+      "image": "Fish1.png",
+      "subcategory": ["Fresh Water", "Sea Water", "Crab"]
+    },
+    {
+      "id": 4,
+      "category": "Mutton",
+      "image": "Mutton1.png",
+      "subcategory": [
+        "Curry Cuts",
+        "Boneless & Mince",
+        "Speciality Cuts",
+        "Offal",
+        "Combos",
+        "Premium Cuts"
+      ]
+    },
+    {
+      "id": 5,
+      "category": "Ready to Cook",
+      "image": "Readytoc00o.png",
+      "subcategory": [
+        "Curry Cuts",
+        "Boneless & Mince",
+        "Speciality Cuts",
+        "Offal",
+        "Combos",
+        "Premium Cuts"
+      ]
+    },
+    {
+      "id": 6,
+      "category": "Prawns",
+      "image": "Prawns.png",
+      "subcategory": [
+        "Curry Cuts",
+        "Boneless & Mince",
+        "Speciality Cuts",
+        "Offal",
+        "Combos",
+        "Premium Cuts"
+      ]
+    },
+    {
+      "id": 7,
+      "category": "Eggs",
+      "image": "Eggs.png",
+      "subcategory": ["Classic Eggs", "Speciality Eggs", "Combos"]
+    },
+    {
+      "id": 8,
+      "category": "Cold Cuts",
+      "image": "Coldcuts.png",
+      "subcategory": ["Sausages", "Frankfurters", "Lyoners", "Salamis"]
+    },
+    {
+      "id": 9,
+      "category": "Kebab & Biryani",
+      "image": "Kebabs.png",
+      "subcategory": ["Kebab", "Tandoor", "Biryani", "Combos"]
+    },
+    {
+      "id": 10,
+      "category": "Spreads",
+      "image": "spreads-transparent.png",
+      "subcategory": ["Chicken", "Egg", "Combos"]
+    },
+    {
+      "id": 11,
+      "category": "Plant Based Meat",
+      "image": "Uncrave.png",
+      "subcategory": [
+        "Chick~n",
+        "Mutt~n",
+        "Trial Packs",
+        "Combos",
+        "Combos with Meat"
+      ]
+    },
+    {
+      "id": 12,
+      "category": "Meat Masala",
+      "image": "Masala.png",
+      "subcategory": ["Chicken", "Egg", "Combos"]
+    }
+  ],
+  "combos": [
+    {
+      "id": 1,
+      "category_id": 2,
+      "category": "Chicken",
+      "comboitem": "Chicken Curry Cut - Small Pieces",
+      "image": "PDP_1.webp",
+      "quantity": "500gm | Serves 4",
+      "selling_price": 166,
+      "discounts": 7,
+      "origianl_price": 179,
+      "flashsale": 90,
+      "comno_description": "Licious Chicken Curry Cut is a premium cut that includes the leg, breast & wings. This smaller, tender cut has equal-sized pieces for uniform cooking and the juiciest bites. Our meaty, juicy Chicken Curry Cut is perfect for a family of 4.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 2,
+      "category_id": 2,
+      "category": "Chicken",
+      "comboitem": "Chicken Breast - Boneless",
+      "image": "PDP_2.webp",
+      "quantity": "450gm | Serves 4",
+      "selling_price": 299,
+      "discounts": "",
+      "origianl_price": "",
+      "flashsale": 90,
+      "comno_description": "This special Licious Chicken Breast’s absorbs masalas better & is perfect for quick-cooking recipes.Expertly cut from the breast bone, this boneless cut is skinless and ideal if you enjoy cuts of lean meat.It can be cooked in a variety of ways: grilled, baked, fried, pan-fried and more.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 3,
+      "category_id": 2,
+      "category": "Chicken",
+      "comboitem": "Chicken Tikka & Tandoori Combo",
+      "image": "PDP_13.webp",
+      "quantity": "500gm | Serves 4",
+      "selling_price": 166,
+      "discounts": 7,
+      "origianl_price": 179,
+      "flashsale": 90,
+      "comno_description": "Licious Chicken Curry Cut is a premium cut that includes the leg, breast & wings. This smaller, tender cut has equal-sized pieces for uniform cooking and the juiciest bites. Our meaty, juicy Chicken Curry Cut is perfect for a family of 4.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 4,
+      "category_id": 2,
+      "category": "Chicken",
+      "comboitem": "Premium Chicken Leg Boneless Cubes",
+      "image": "PDP_14.webp",
+      "quantity": "450gm | Serves 4",
+      "selling_price": 349,
+      "discounts": "",
+      "origianl_price": "",
+      "flashsale": 90,
+      "comno_description": "An exclusive Licious cut, these are equal-sized for uniform cooking.These are cut from the most flavourful portions of the bird, namely the thigh & drumstick.These pieces are ideal for grills and boneless curries.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 5,
+      "category_id": 2,
+      "category": "Chicken",
+      "comboitem": "Chicken Curry Cut - Large Pieces",
+      "image": "PDP_5.webp",
+      "quantity": "450gm | Serves 4",
+      "selling_price": 165,
+      "discounts": "",
+      "origianl_price": "",
+      "flashsale": 90,
+      "comno_description": "Licious Chicken Biryani Cut is a premium cut that includes the leg, breast & wings.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 6,
+      "category_id": 2,
+      "category": "Chicken",
+      "comboitem": "Premium Chicken Thigh Boneless",
+      "image": "PDP_6.webp",
+      "quantity": "450gm | Serves 5",
+      "selling_price": 345,
+      "discounts": "",
+      "origianl_price": "",
+      "flashsale": 90,
+      "comno_description": "Licious Chicken Thighs (Boneless) is a juicy cut that doesn't dry out easily.These equally-sized boneless pieces ensure uniform cooking.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 7,
+      "category_id": 2,
+      "category": "Chicken",
+      "comboitem": "Chicken Boneless - Mini Bites",
+      "image": "PDP_7.webp",
+      "quantity": "450gm | Serves 4",
+      "selling_price": 199,
+      "discounts": "",
+      "origianl_price": "",
+      "flashsale": 90,
+      "comno_description": "This Licious special cut has equally sized portions that absorb spices and cook uniformly",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 8,
+      "category_id": 2,
+      "category": "Chicken",
+      "comboitem": "Chicken Drumstick - Pack Of 6",
+      "image": "PDP_8.webp",
+      "quantity": "450gm | Serves 4",
+      "selling_price": 285,
+      "discounts": "",
+      "origianl_price": "299",
+      "flashsale": 90,
+      "comno_description": "Juicy bone-in chicken drumsticks, cut from the leg",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 9,
+      "category_id": 2,
+      "category": "Chicken",
+      "comboitem": "Chicken Mince (Keema)",
+      "image": "PDP_9.webp",
+      "quantity": "450gm | Serves 4",
+      "selling_price": 299,
+      "discounts": "",
+      "origianl_price": "",
+      "flashsale": 90,
+      "comno_description": "For mouth-watering meatballs, keema & more",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 10,
+      "category_id": 2,
+      "category": "Chicken",
+      "comboitem": "Premium Chicken Leg Boneless Cubes",
+      "image": "PDP_10.webp",
+      "quantity": "450gm | Serves 2-3",
+      "selling_price": 349,
+      "discounts": "",
+      "origianl_price": "399",
+      "flashsale": 90,
+      "comno_description": "This special Licious Chicken Breast’s absorbs masalas better & is perfect for quick-cooking recipes.Expertly cut from the breast bone, this boneless cut is skinless and ideal if you enjoy cuts of lean meat.It can be cooked in a variety of ways: grilled, baked, fried, pan-fried and more.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 11,
+      "category_id": 2,
+      "category": "Chicken",
+      "comboitem": "Chicken Gizzard",
+      "image": "PDP_11.webp",
+      "quantity": "300gm | Serves 3",
+      "selling_price": 109,
+      "discounts": "",
+      "origianl_price": "",
+      "flashsale": 90,
+      "comno_description": "This special Licious Chicken Breast’s absorbs masalas better & is perfect for quick-cooking recipes.Expertly cut from the breast bone, this boneless cut is skinless and ideal if you enjoy cuts of lean meat.It can be cooked in a variety of ways: grilled, baked, fried, pan-fried and more.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 12,
+      "category_id": 2,
+      "category": "Chicken",
+      "comboitem": "Chicken Liver",
+      "image": "PDP_12.webp",
+      "quantity": "350gm | Serves 4",
+      "selling_price": 85,
+      "discounts": "",
+      "origianl_price": "100",
+      "flashsale": 90,
+      "comno_description": "This special Licious Chicken Breast’s absorbs masalas better & is perfect for quick-cooking recipes.Expertly cut from the breast bone, this boneless cut is skinless and ideal if you enjoy cuts of lean meat.It can be cooked in a variety of ways: grilled, baked, fried, pan-fried and more.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 13,
+      "category_id": 2,
+      "category": "Chicken",
+      "comboitem": "Dinner Special Combo",
+      "image": "PDP_13.webp",
+      "quantity": "450gm | Serves 4",
+      "selling_price": 498,
+      "discounts": "",
+      "origianl_price": "510",
+      "flashsale": 90,
+      "comno_description": "This special Licious Chicken Breast’s absorbs masalas better & is perfect for quick-cooking recipes.Expertly cut from the breast bone, this boneless cut is skinless and ideal if you enjoy cuts of lean meat.It can be cooked in a variety of ways: grilled, baked, fried, pan-fried and more.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 14,
+      "category_id": 2,
+      "category": "Chicken",
+      "comboitem": "Chicken Breast Boneless (Large Pack)",
+      "image": "PDP_14.webp",
+      "quantity": "450gm | Serves 4",
+      "selling_price": 349,
+      "discounts": "",
+      "origianl_price": "",
+      "flashsale": 90,
+      "comno_description": "This special Licious Chicken Breast’s absorbs masalas better & is perfect for quick-cooking recipes.Expertly cut from the breast bone, this boneless cut is skinless and ideal if you enjoy cuts of lean meat.It can be cooked in a variety of ways: grilled, baked, fried, pan-fried and more.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 15,
+      "category_id": 2,
+      "category": "Chicken",
+      "comboitem": "Country Chicken / Nattu Koli Curry Cut",
+      "image": "PDP_15.webp",
+      "quantity": "450gm | Serves 4",
+      "selling_price": 399.0,
+      "discounts": "",
+      "origianl_price": "",
+      "flashsale": 90,
+      "comno_description": "This special Licious Chicken Breast’s absorbs masalas better & is perfect for quick-cooking recipes.Expertly cut from the breast bone, this boneless cut is skinless and ideal if you enjoy cuts of lean meat.It can be cooked in a variety of ways: grilled, baked, fried, pan-fried and more.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    }
+  ],
+
+  "fish": [
+    {
+      "id": 111,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Freshwater/ White Prawns/ Seegadi (Medium) - Cleaned & Deveined",
+      "image": "fish_1.webp",
+      "quantity": "500gm | Serves 4",
+      "selling_price": 379,
+      "discounts": 7,
+      "origianl_price": 179,
+      "flashsale": 90,
+      "comno_description": "Licious White Prawns are consistent in size they cook evenly throughout.Mildly sweet & extremely juicy, the prawns can be pan-fried or made into curries.They are cleaned and deveined and can go straight from the pack to your pan.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 112,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Freshwater/ White Prawns/ Seegadi ",
+      "image": "fish_2.webp",
+      "quantity": "450gm | Serves 4",
+      "selling_price": 379,
+      "discounts": "",
+      "origianl_price": "",
+      "flashsale": 90,
+      "comno_description": "Licious White Prawns are consistent in size they cook evenly throughout.Mildly sweet & extremely juicy, the prawns can be pan-fried or made into curries.They are cleaned and deveined and can go straight from the pack to your pan",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 113,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Rohu (Rui/Kannadi Kendai) Medium - Bengali Cut, No Head",
+      "image": "fish_3.webp",
+      "quantity": "500gm | Serves 4",
+      "selling_price": 289,
+      "discounts": 7,
+      "origianl_price": 179,
+      "flashsale": 90,
+      "comno_description": "Licious Chicken Curry Cut is a premium cut that includes the leg, breast & wings. This smaller, tender cut has equal-sized pieces for uniform cooking and the juiciest bites. Our meaty, juicy Chicken Curry Cut is perfect for a family of 4.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 114,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Catla (Theppu/Kendai) Medium - Bengali Cut, No Head",
+      "image": "fish_4.webp",
+      "quantity": "450gm | Serves 4",
+      "selling_price": 329,
+      "discounts": "",
+      "origianl_price": "",
+      "flashsale": 90,
+      "comno_description": "Catla is a freshwater, bony fish which has a very delicate or mild flavour and soft, lean meat.  This package contains 7-9 Bengali cut pieces including part of the tail. ",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 115,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Rohu (Rui/Kannadi Kendai) Large - Bengali Cut, No Head",
+      "image": "fish_5.webp",
+      "quantity": "450gm | Serves 4",
+      "selling_price": 165,
+      "discounts": "",
+      "origianl_price": "",
+      "flashsale": 90,
+      "comno_description": "A Licious special cut that includes delicate belly or peti pieces, triangular pieces from the spine and a piece from the tail.The fish has fine bones, a soft texture & turns flaky when cooked with a sweet aftertaste.It is thoroughly cleaned so you can use it straight from th",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 116,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Sea Bass (Barramundi/ Bhetki/ Mudavu) ",
+      "image": "fish_6.webp",
+      "quantity": "450gm | Serves 5",
+      "selling_price": 455,
+      "discounts": "",
+      "origianl_price": "",
+      "flashsale": 90,
+      "comno_description": "Licious Chicken Thighs (Boneless) is a juicy cut that doesn't dry out easily.These equally-sized boneless pieces ensure uniform cooking.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 117,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Basa (Pungus/Vaalla Meen) - Boneless Cubes",
+      "image": "fish_7.webp",
+      "quantity": "450gm | Serves 4",
+      "selling_price": 199,
+      "discounts": "",
+      "origianl_price": "",
+      "flashsale": 90,
+      "comno_description": "his special Licious cut is bite-sized and cut from the belly portion of the fish.These cuts are mild-flavoured with a sweet aftertaste & turn flaky when cooked.They come cleaned so you can use them straight from the pack & waste no time in the prep.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 118,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Platinum Grade Basa (Pungus/Vaalla Meen) - Fillet",
+      "image": "fish_8.webp",
+      "quantity": "450gm | Serves 4",
+      "selling_price": 285,
+      "discounts": "",
+      "origianl_price": "299",
+      "flashsale": 90,
+      "comno_description": "This unique Licious cut comes from the highest quality Basa and is cut length-wise along its spine for a large-sized filletA moderately flavoured freshwater fish, this cut easily soaks in any spice combination and is an ideal choice for amateur fish",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 119,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Anchovy (Nethili/Kollathuru) Medium - Whole, Cleaned",
+      "image": "fish_9.webp",
+      "quantity": "450gm | Serves 4",
+      "selling_price": 199,
+      "discounts": "",
+      "origianl_price": "",
+      "flashsale": 90,
+      "comno_description": "Enjoy handpicked Licious Anchovies that are consistent in size for an even cook.Strong-flavoured & slightly salty, they're a perfect pick for seafood lovers.They come cleaned so you can use them straight off the pack and waste zero time in the prep",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 120,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Freshwater/White Prawns (Seegadi/Eraal/Naaran) Large - Cleaned & Deveined",
+      "image": "fish_10.webp",
+      "quantity": "450gm | Serves 2-3",
+      "selling_price": 509,
+      "discounts": "",
+      "origianl_price": "399",
+      "flashsale": 90,
+      "comno_description": "This special Licious Chicken Breast’s absorbs masalas better & is perfect for quick-cooking recipes.Expertly cut from the breast bone, this boneless cut is skinless and ideal if you enjoy cuts of lean meat.It can be cooked in a variety of ways: grilled, baked, fried, pan-fried and more.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 121,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Chicken Gizzard",
+      "image": "fish_11.webp",
+      "quantity": "300gm | Serves 3",
+      "selling_price": 109,
+      "discounts": "",
+      "origianl_price": "",
+      "flashsale": 90,
+      "comno_description": "This special Licious Chicken Breast’s absorbs masalas better & is perfect for quick-cooking recipes.Expertly cut from the breast bone, this boneless cut is skinless and ideal if you enjoy cuts of lean meat.It can be cooked in a variety of ways: grilled, baked, fried, pan-fried and more.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 122,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Chicken Liver",
+      "image": "fish_12.webp",
+      "quantity": "350gm | Serves 4",
+      "selling_price": 85,
+      "discounts": "",
+      "origianl_price": "100",
+      "flashsale": 90,
+      "comno_description": "This special Licious Chicken Breast’s absorbs masalas better & is perfect for quick-cooking recipes.Expertly cut from the breast bone, this boneless cut is skinless and ideal if you enjoy cuts of lean meat.It can be cooked in a variety of ways: grilled, baked, fried, pan-fried and more.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    }
+  ],
+  "mutton": [
+    {
+      "id": 211,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Freshwater/ White Prawns/ Seegadi (Medium) - Cleaned & Deveined",
+      "image": "mtn_1.webp",
+      "quantity": "500gm | Serves 4",
+      "selling_price": 379,
+      "discounts": 7,
+      "origianl_price": 179,
+      "flashsale": 90,
+      "comno_description": "Licious White Prawns are consistent in size they cook evenly throughout.Mildly sweet & extremely juicy, the prawns can be pan-fried or made into curries.They are cleaned and deveined and can go straight from the pack to your pan.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 212,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Freshwater/ White Prawns/ Seegadi ",
+      "image": "mtn_2.webp",
+      "quantity": "450gm | Serves 4",
+      "selling_price": 379,
+      "discounts": "",
+      "origianl_price": "",
+      "flashsale": 90,
+      "comno_description": "Licious White Prawns are consistent in size they cook evenly throughout.Mildly sweet & extremely juicy, the prawns can be pan-fried or made into curries.They are cleaned and deveined and can go straight from the pack to your pan",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 213,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Rohu (Rui/Kannadi Kendai) Medium - Bengali Cut, No Head",
+      "image": "mtn_3.webp",
+      "quantity": "500gm | Serves 4",
+      "selling_price": 289,
+      "discounts": 7,
+      "origianl_price": 179,
+      "flashsale": 90,
+      "comno_description": "Licious Chicken Curry Cut is a premium cut that includes the leg, breast & wings. This smaller, tender cut has equal-sized pieces for uniform cooking and the juiciest bites. Our meaty, juicy Chicken Curry Cut is perfect for a family of 4.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 214,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Catla (Theppu/Kendai) Medium - Bengali Cut, No Head",
+      "image": "mtn_4.webp",
+      "quantity": "450gm | Serves 4",
+      "selling_price": 329,
+      "discounts": "",
+      "origianl_price": "",
+      "flashsale": 90,
+      "comno_description": "Catla is a freshwater, bony fish which has a very delicate or mild flavour and soft, lean meat.  This package contains 7-9 Bengali cut pieces including part of the tail. ",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 215,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Rohu (Rui/Kannadi Kendai) Large - Bengali Cut, No Head",
+      "image": "mtn_5.webp",
+      "quantity": "450gm | Serves 4",
+      "selling_price": 165,
+      "discounts": "",
+      "origianl_price": "",
+      "flashsale": 90,
+      "comno_description": "A Licious special cut that includes delicate belly or peti pieces, triangular pieces from the spine and a piece from the tail.The fish has fine bones, a soft texture & turns flaky when cooked with a sweet aftertaste.It is thoroughly cleaned so you can use it straight from th",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 216,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Sea Bass (Barramundi/Bhetki/Mudavu) ",
+      "image": "mtn_6.webp",
+      "quantity": "450gm | Serves 5",
+      "selling_price": 455,
+      "discounts": "",
+      "origianl_price": "",
+      "flashsale": 90,
+      "comno_description": "Licious Chicken Thighs (Boneless) is a juicy cut that doesn't dry out easily.These equally-sized boneless pieces ensure uniform cooking.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 217,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Basa (Pungus/Vaalla Meen) - Boneless Cubes",
+      "image": "mtn_7.webp",
+      "quantity": "450gm | Serves 4",
+      "selling_price": 199,
+      "discounts": "",
+      "origianl_price": "",
+      "flashsale": 90,
+      "comno_description": "his special Licious cut is bite-sized and cut from the belly portion of the fish.These cuts are mild-flavoured with a sweet aftertaste & turn flaky when cooked.They come cleaned so you can use them straight from the pack & waste no time in the prep.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 218,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Platinum Grade Basa (Pungus/Vaalla Meen) - Fillet",
+      "image": "mtn_8.webp",
+      "quantity": "450gm | Serves 4",
+      "selling_price": 285,
+      "discounts": "",
+      "origianl_price": "299",
+      "flashsale": 90,
+      "comno_description": "This unique Licious cut comes from the highest quality Basa and is cut length-wise along its spine for a large-sized filletA moderately flavoured freshwater fish, this cut easily soaks in any spice combination and is an ideal choice for amateur fish",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 219,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Anchovy (Nethili/Kollathuru) Medium - Whole, Cleaned",
+      "image": "mtn_9.webp",
+      "quantity": "450gm | Serves 4",
+      "selling_price": 199,
+      "discounts": "",
+      "origianl_price": "",
+      "flashsale": 90,
+      "comno_description": "Enjoy handpicked Licious Anchovies that are consistent in size for an even cook.Strong-flavoured & slightly salty, they're a perfect pick for seafood lovers.They come cleaned so you can use them straight off the pack and waste zero time in the prep",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 220,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Freshwater/White Prawns (Seegadi/Eraal/Naaran) Large - Cleaned & Deveined",
+      "image": "mtn_10.webp",
+      "quantity": "450gm | Serves 2-3",
+      "selling_price": 509,
+      "discounts": "",
+      "origianl_price": "399",
+      "flashsale": 90,
+      "comno_description": "This special Licious Chicken Breast’s absorbs masalas better & is perfect for quick-cooking recipes.Expertly cut from the breast bone, this boneless cut is skinless and ideal if you enjoy cuts of lean meat.It can be cooked in a variety of ways: grilled, baked, fried, pan-fried and more.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 221,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Chicken Gizzard",
+      "image": "mtn_11.webp",
+      "quantity": "300gm | Serves 3",
+      "selling_price": 109,
+      "discounts": "",
+      "origianl_price": "",
+      "flashsale": 90,
+      "comno_description": "This special Licious Chicken Breast’s absorbs masalas better & is perfect for quick-cooking recipes.Expertly cut from the breast bone, this boneless cut is skinless and ideal if you enjoy cuts of lean meat.It can be cooked in a variety of ways: grilled, baked, fried, pan-fried and more.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 222,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Chicken Liver",
+      "image": "mtn_12.webp",
+      "quantity": "350gm | Serves 4",
+      "selling_price": 85,
+      "discounts": "",
+      "origianl_price": "100",
+      "flashsale": 90,
+      "comno_description": "This special Licious Chicken Breast’s absorbs masalas better & is perfect for quick-cooking recipes.Expertly cut from the breast bone, this boneless cut is skinless and ideal if you enjoy cuts of lean meat.It can be cooked in a variety of ways: grilled, baked, fried, pan-fried and more.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    }
+  ],
+  "ready_to_cook": [
+    {
+      "id": 311,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Freshwater/ White Prawns/ Seegadi (Medium) - Cleaned & Deveined",
+      "image": "rdy_1.webp",
+      "quantity": "500gm | Serves 4",
+      "selling_price": 379,
+      "discounts": 7,
+      "origianl_price": 179,
+      "flashsale": 90,
+      "comno_description": "Licious White Prawns are consistent in size they cook evenly throughout.Mildly sweet & extremely juicy, the prawns can be pan-fried or made into curries.They are cleaned and deveined and can go straight from the pack to your pan.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 312,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Freshwater/ White Prawns/ Seegadi ",
+      "image": "rdy_2.webp",
+      "quantity": "450gm | Serves 4",
+      "selling_price": 379,
+      "discounts": "",
+      "origianl_price": "",
+      "flashsale": 90,
+      "comno_description": "Licious White Prawns are consistent in size they cook evenly throughout.Mildly sweet & extremely juicy, the prawns can be pan-fried or made into curries.They are cleaned and deveined and can go straight from the pack to your pan",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 313,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Rohu (Rui/Kannadi Kendai) Medium - Bengali Cut, No Head",
+      "image": "rdy_3.webp",
+      "quantity": "500gm | Serves 4",
+      "selling_price": 289,
+      "discounts": 7,
+      "origianl_price": 179,
+      "flashsale": 90,
+      "comno_description": "Licious Chicken Curry Cut is a premium cut that includes the leg, breast & wings. This smaller, tender cut has equal-sized pieces for uniform cooking and the juiciest bites. Our meaty, juicy Chicken Curry Cut is perfect for a family of 4.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 314,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Catla (Theppu/Kendai) Medium - Bengali Cut, No Head",
+      "image": "rdy_4.JPEG",
+      "quantity": "450gm | Serves 4",
+      "selling_price": 329,
+      "discounts": "",
+      "origianl_price": "",
+      "flashsale": 90,
+      "comno_description": "Catla is a freshwater, bony fish which has a very delicate or mild flavour and soft, lean meat.  This package contains 7-9 Bengali cut pieces including part of the tail. ",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 315,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Rohu (Rui/Kannadi Kendai) Large - Bengali Cut, No Head",
+      "image": "rdy_5.webp",
+      "quantity": "450gm | Serves 4",
+      "selling_price": 165,
+      "discounts": "",
+      "origianl_price": "",
+      "flashsale": 90,
+      "comno_description": "A Licious special cut that includes delicate belly or peti pieces, triangular pieces from the spine and a piece from the tail.The fish has fine bones, a soft texture & turns flaky when cooked with a sweet aftertaste.It is thoroughly cleaned so you can use it straight from th",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 316,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Sea Bass (Barramundi/Bhetki/Mudavu) ",
+      "image": "rdy_6.webp",
+      "quantity": "450gm | Serves 5",
+      "selling_price": 455,
+      "discounts": "",
+      "origianl_price": "",
+      "flashsale": 90,
+      "comno_description": "Licious Chicken Thighs (Boneless) is a juicy cut that doesn't dry out easily.These equally-sized boneless pieces ensure uniform cooking.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 317,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Basa (Pungus/Vaalla Meen) - Boneless Cubes",
+      "image": "rdy_7.webp",
+      "quantity": "450gm | Serves 4",
+      "selling_price": 199,
+      "discounts": "",
+      "origianl_price": "",
+      "flashsale": 90,
+      "comno_description": "his special Licious cut is bite-sized and cut from the belly portion of the fish.These cuts are mild-flavoured with a sweet aftertaste & turn flaky when cooked.They come cleaned so you can use them straight from the pack & waste no time in the prep.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 318,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Platinum Grade Basa (Pungus/Vaalla Meen) - Fillet",
+      "image": "rdy_8.JPEG",
+      "quantity": "450gm | Serves 4",
+      "selling_price": 285,
+      "discounts": "",
+      "origianl_price": "299",
+      "flashsale": 90,
+      "comno_description": "This unique Licious cut comes from the highest quality Basa and is cut length-wise along its spine for a large-sized filletA moderately flavoured freshwater fish, this cut easily soaks in any spice combination and is an ideal choice for amateur fish",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 319,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Anchovy (Nethili/Kollathuru) Medium - Whole, Cleaned",
+      "image": "rdy_9.webp",
+      "quantity": "450gm | Serves 4",
+      "selling_price": 199,
+      "discounts": "",
+      "origianl_price": "",
+      "flashsale": 90,
+      "comno_description": "Enjoy handpicked Licious Anchovies that are consistent in size for an even cook.Strong-flavoured & slightly salty, they're a perfect pick for seafood lovers.They come cleaned so you can use them straight off the pack and waste zero time in the prep",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 320,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Freshwater/White Prawns (Seegadi/Eraal/Naaran) Large - Cleaned & Deveined",
+      "image": "rdy_10.webp",
+      "quantity": "450gm | Serves 2-3",
+      "selling_price": 509,
+      "discounts": "",
+      "origianl_price": "399",
+      "flashsale": 90,
+      "comno_description": "This special Licious Chicken Breast’s absorbs masalas better & is perfect for quick-cooking recipes.Expertly cut from the breast bone, this boneless cut is skinless and ideal if you enjoy cuts of lean meat.It can be cooked in a variety of ways: grilled, baked, fried, pan-fried and more.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 321,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Chicken Gizzard",
+      "image": "rdy_11.JPEG",
+      "quantity": "300gm | Serves 3",
+      "selling_price": 109,
+      "discounts": "",
+      "origianl_price": "",
+      "flashsale": 90,
+      "comno_description": "This special Licious Chicken Breast’s absorbs masalas better & is perfect for quick-cooking recipes.Expertly cut from the breast bone, this boneless cut is skinless and ideal if you enjoy cuts of lean meat.It can be cooked in a variety of ways: grilled, baked, fried, pan-fried and more.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    },
+    {
+      "id": 322,
+      "category_id": 3,
+      "category": "Fish",
+      "comboitem": "Chicken Liver",
+      "image": "rdy_12.webp",
+      "quantity": "350gm | Serves 4",
+      "selling_price": 85,
+      "discounts": "",
+      "origianl_price": "100",
+      "flashsale": 90,
+      "comno_description": "This special Licious Chicken Breast’s absorbs masalas better & is perfect for quick-cooking recipes.Expertly cut from the breast bone, this boneless cut is skinless and ideal if you enjoy cuts of lean meat.It can be cooked in a variety of ways: grilled, baked, fried, pan-fried and more.",
+      "Nutrition_info": [
+        "Total Energy: 127 Kcal",
+        "Carbohydrate: 0 g",
+        "Fat: 4.5 g",
+        "Protein: 21.6 g"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+.shopWrapper{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.shopContainer{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-flow: wrap;
+
+}
+.shopImgContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 200px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.shopImg{
+   
+   
+    width: 100%;
+}
+@media screen and (max-width:500px) {
+    .shopImgContainer{
+        width: 100px;
+    }
+    .shopItem{
+        font-size: 12px;
+    }
+}

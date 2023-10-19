@@ -1,0 +1,92 @@
+/* .detailsContainer{
+    display: flex;
+} */
+
+.DetaislHead{
+    margin-bottom: 10px;
+    
+}
+.detailsImgContainer{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.detailsImg{
+    width: 100%;
+    margin: 0px 0px;
+    border-radius: 10px;
+   }
+.readMore{
+    /* max-width: 500px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+font-weight: 200;
+
+}
+.read-more-link{
+    font-size: 10px;
+    
+    }
+    .read-more-link h2{
+        margin-top: 10px;
+    }
+    .detailsDescContainer{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 95%;
+        display: flex;
+        align-items: flex-start;
+        justify-content:space-between ;
+        border-top: 1px solid black;
+    }
+.DetailsDesc{
+    
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: 200;
+line-height: 26px;
+margin-right: 20px;
+}
+.detaisPriceContainer2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-top: 20px;
+    /* border-top: 1px solid black; */
+    padding-bottom: 10px;
+}
+.detailsAddBtn{
+    width: 120px;
+    padding: 10px;
+    background-color: rgb(188, 33, 33);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    
+
+}
+.addedItemDes{
+    color: green;
+    font-weight: 700;
+    text-align: center;
+}
+@media screen and (max-width:500px){
+    .DetaislHead{
+       font-size: 20px;
+            }
+            .detialsPrice{
+                font-size: 18px;
+            }
+            .detailsAddBtn{
+                width: 90px;
+            }
+           .DetailsDesc{
+            font-size: 10px;
+           }
+}

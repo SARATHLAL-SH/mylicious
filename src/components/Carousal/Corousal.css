@@ -1,0 +1,32 @@
+.carousalContainer{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    
+    /* margin-left: 2%; */
+    /* height: 5%; */
+}
+.carosalimgContainer{
+
+    background-position: center;
+    height: 300px;
+  
+    overflow: hidden;
+}
+
+
+.carosalimgContainer img{
+    
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+.slick-arrow .slick-next  .slick-prev{
+    display: none;
+}
+@media screen and (max-width:500px) {
+    .carousalContainer{
+       display: none;
+    }
+  }
