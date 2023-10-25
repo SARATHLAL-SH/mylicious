@@ -1,5 +1,5 @@
 import React  from "react";
- alt="" 
+
 import crslImg2 from "../../../src/images/carosalImg2.webp";
 import crslImg3 from "../../../src/images/carousalImg3.webp";
 import crslImg4 from "../../../src/images/corousalImg5.webp";

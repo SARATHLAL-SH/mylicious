@@ -12,13 +12,11 @@ function Bestsellers() {
   const [combodatas, setComboDatas] = useState([]);
   const mycombodata = useContext(userContext);
   const {
-    
     setItemCount,
     objCounts,
     setObjCounts,
     addItemHandler,
     deleteHandler,
-
   } = useContext(userContext);
 
   useEffect(() => {
@@ -26,7 +24,7 @@ function Bestsellers() {
       mycombodata && setComboDatas(mycombodata.combodata);
       console.log(objCounts);
     }
-  },[]);
+  });
 
   const contDecrementHandler = (combdata) => {
     // addItemHandler(combdata);
@@ -72,81 +70,81 @@ function Bestsellers() {
 
   return (
     <>
-    <Courousal2/>
-    <div>
-      <div className="bestSellerWrapper">
-        {mycombodata &&
-          combodatas.map((combdata) => (
-            <>
-              <div className="bestSellersContainer">
-                <div className="bsellerprodImgContainer">
-                  <img
-                    src={`${process.env.PUBLIC_URL}/dataImages/${combdata.image}`}
-                    alt=""
-                    className="bstsellerImg"
-                  />
-                  <div className="addBtnContaner">
-                    {objCounts.map((cartCout) =>
-                      cartCout.id === combdata.id && cartCout.objCount > 1 ? (
-                        <img
-                          src={minus}
-                          onClick={(e) => contDecrementHandler(combdata)}
-                          alt=""
-                          className="plusimg"
-                        />
-                      ) : cartCout.id === combdata.id &&
-                        cartCout.objCount === 1 ? (
-                        <button
-                          className="close"
-                          onClick={() => deleteHandler(combdata)}
-                        >
-                          x
-                        </button>
-                      ) : null
-                    )}
-
-                    {objCounts.map((cartCout) =>
-                      cartCout.id === combdata.id ? (
-                        <label className="Bstadditem">
-                          {" "}
-                          {cartCout.objCount}{" "}
-                        </label>
-                      ) : null
-                    )}
-
+      <Courousal2 />
+      <div>
+        <div className="bestSellerWrapper">
+          {mycombodata &&
+            combodatas.map((combdata) => (
+              <>
+                <div className="bestSellersContainer">
+                  <div className="bsellerprodImgContainer">
                     <img
-                      src={plus}
+                      src={`${process.env.PUBLIC_URL}/dataImages/${combdata.image}`}
                       alt=""
-                      onClick={() => contIncrementHandler(combdata)}
-                      className="plusimg"
+                      className="bstsellerImg"
                     />
+                    <div className="addBtnContaner">
+                      {objCounts.map((cartCout) =>
+                        cartCout.id === combdata.id && cartCout.objCount > 1 ? (
+                          <img
+                            src={minus}
+                            onClick={(e) => contDecrementHandler(combdata)}
+                            alt=""
+                            className="plusimg"
+                          />
+                        ) : cartCout.id === combdata.id &&
+                          cartCout.objCount === 1 ? (
+                          <button
+                            className="close"
+                            onClick={() => deleteHandler(combdata)}
+                          >
+                            x
+                          </button>
+                        ) : null
+                      )}
+
+                      {objCounts.map((cartCout) =>
+                        cartCout.id === combdata.id ? (
+                          <label className="Bstadditem">
+                            {" "}
+                            {cartCout.objCount}{" "}
+                          </label>
+                        ) : null
+                      )}
+
+                      <img
+                        src={plus}
+                        alt=""
+                        onClick={() => contIncrementHandler(combdata)}
+                        className="plusimg"
+                      />
+                    </div>
+                  </div>
+                  <h3 className="bstsellerPrdHead">
+                    <NavLink className="myNav" to={`/details/${combdata.id}`}>
+                      {combdata.comboitem}
+                    </NavLink>
+                  </h3>
+
+                  <p className="BstproductQuanty">500gms | Serves 4</p>
+                  <div className="BstpriceContainer">
+                    <h4 className="BstproductPrice">
+                      ₹{combdata.selling_price}{" "}
+                    </h4>
+                    <h5 className="bstOldprice">₹${combdata.origianl_price}</h5>
+                    <p className="bstsellO">${combdata.discounts}% off</p>
+                  </div>
+                  <div className="bsttodaysDealImgContainer">
+                    <img src={delivery} alt="" className="bsttodaysdealimg" />
+                    <p className="bstTodaysDeal">
+                      Today in <b>90 min</b>
+                    </p>
                   </div>
                 </div>
-                <h3 className="bstsellerPrdHead">
-                  <NavLink className="myNav" to={`/details/${combdata.id}`}>
-                    {combdata.comboitem}
-                  </NavLink>
-                </h3>
-
-                <p className="BstproductQuanty">500gms | Serves 4</p>
-                <div className="BstpriceContainer">
-                  <h4 className="BstproductPrice">
-                    ₹{combdata.selling_price}{" "}
-                  </h4>
-                  <h5 className="bstOldprice">₹${combdata.origianl_price}</h5>
-                  <p className="bstsellO">${combdata.discounts}% off</p>
-                </div>
-                <div className="bsttodaysDealImgContainer">
-                  <img src={delivery} alt="" className="bsttodaysdealimg" />
-                  <p className="bstTodaysDeal">
-                    Today in <b>90 min</b>
-                  </p>
-                </div>
-              </div>
-            </>
-          ))}
+              </>
+            ))}
+        </div>
       </div>
-    </div>
     </>
   );
 }
