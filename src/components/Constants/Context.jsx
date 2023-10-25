@@ -34,7 +34,8 @@ function Context(props) {
 
   const toggleCategory=()=>{
     setIsCategoryOpen(!isCategoryOpen);
-    setIsCartOpen(false)
+    setIsCartOpen(false);
+   
   };
   const deleteHandler = (mydata) => {
     const deleltedobj = cartarrayData.filter(
@@ -171,7 +172,8 @@ function Context(props) {
           isCartOpen,
           setIsCartOpen,toggleCart,
           toggleCategory,
-          isCategoryOpen
+          isCategoryOpen,
+          setIsCategoryOpen
         }}
       >
         {props.children}

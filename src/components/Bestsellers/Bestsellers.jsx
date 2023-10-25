@@ -6,12 +6,20 @@ import minus from "../../images/Minus.png";
 import { useContext } from "react";
 import { userContext } from "../Constants/Context";
 import { Link, NavLink } from "react-router-dom";
+import Courousal2 from "../Carousal/Courousal2";
 
 function Bestsellers() {
   const [combodatas, setComboDatas] = useState([]);
   const mycombodata = useContext(userContext);
-  const { itemCount, setItemCount, objCounts, setObjCounts, addItemHandler, deleteHandler,sellerId } =
-    useContext(userContext);
+  const {
+    itemCount,
+    setItemCount,
+    objCounts,
+    setObjCounts,
+    addItemHandler,
+    deleteHandler,
+    sellerId,
+  } = useContext(userContext);
 
   useEffect(() => {
     if (mycombodata) {
@@ -40,10 +48,10 @@ function Bestsellers() {
   };
 
   const contIncrementHandler = (combdata) => {
-    const exists = objCounts.some(item=>item.id === combdata.id)
-if(!exists) {addItemHandler(combdata);}
-else
-    {
+    const exists = objCounts.some((item) => item.id === combdata.id);
+    if (!exists) {
+      addItemHandler(combdata);
+    } else {
       const cartIncount =
         objCounts &&
         objCounts.map((incItem) => {
@@ -63,9 +71,11 @@ else
   };
 
   return (
+    <>
+    <Courousal2/>
     <div>
       <div className="bestSellerWrapper">
-        {mycombodata && 
+        {mycombodata &&
           combodatas.map((combdata) => (
             <>
               <div className="bestSellersContainer">
@@ -84,8 +94,15 @@ else
                           alt=""
                           className="plusimg"
                         />
-                      ) :  cartCout.id === combdata.id && cartCout.objCount === 1 ? 
-                      (<button className="close" onClick={()=>deleteHandler(combdata)}>x</button>):null
+                      ) : cartCout.id === combdata.id &&
+                        cartCout.objCount === 1 ? (
+                        <button
+                          className="close"
+                          onClick={() => deleteHandler(combdata)}
+                        >
+                          x
+                        </button>
+                      ) : null
                     )}
 
                     {objCounts.map((cartCout) =>
@@ -130,6 +147,7 @@ else
           ))}
       </div>
     </div>
+    </>
   );
 }
 

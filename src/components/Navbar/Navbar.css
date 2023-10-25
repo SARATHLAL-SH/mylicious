@@ -165,7 +165,7 @@ color: black;
    font-weight: 700;
    padding:3px 0px 3px 10px ;
    
-   box-shadow: 3px 6px 10px rgb(176, 176, 176);
+   /* box-shadow: 3px 6px 10px rgb(176, 176, 176); */
    margin-right: 10px;
 }
 
@@ -177,8 +177,11 @@ color: black;
         
     display: flex;
     flex-direction: column;
-   
-    }
+    background-color: antiquewhite;
+      }
+      .myDropDown label:hover{
+        background-color: azure;
+      }
     .searchIconContainer{
         right: 21%;
     }
@@ -219,7 +222,7 @@ color: black;
     }
     .searhArea{
         font-size: 10px;
-        width: 60%;
+        width: 80%;
         height:  25px;
     }
     .searhArea::placeholder{
@@ -228,6 +231,7 @@ color: black;
     .searchIconContainer{
         top:4px;
         width: 13px;
+        right: 16%;
         flex: 1;
     }
   
@@ -238,5 +242,9 @@ color: black;
 }
 .myDropDown {
     width: 120px;
+}
+.active{
+    top:70px;
+    right: 9%;
 }
 }

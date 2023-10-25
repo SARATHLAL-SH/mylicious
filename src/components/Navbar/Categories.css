@@ -1,6 +1,7 @@
 .categoryMain{
     display: flex;
     flex-wrap: wrap;
+    width: 90%;
     
     /* flex-direction: column; */
 }
@@ -67,13 +68,19 @@
 
 @media screen and (max-width:500px) {
     .cateogoryWrapper{
-        width: 60%;
+        width: 14rem;
     }
     .categoryName{
         font-size: 12px;
     }
+    
     .categoryImgContainer{
-        width: 60px;
+        width: 10px;
+        
+    }
+    .subcategoryContainer{
+        height: 22.5rem;
+        width: 9rem;
     }
     .subcategory{
         font-size: 10px;

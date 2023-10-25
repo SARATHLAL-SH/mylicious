@@ -4,7 +4,7 @@ import Cart from '../Cart/Cart'
 
 function Popup() {
   return (
-    <div className='popup'>
+    <div className='popup' >
         <div className="popupContnet">
       <Cart/>
     </div>

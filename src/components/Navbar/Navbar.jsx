@@ -28,6 +28,8 @@ function Navbar() {
     toggleCart,
     toggleCategory,
     isCategoryOpen,
+    setIsCategoryOpen
+    
   } = useContext(userContext);
   const [notification, setnotication] = useState();
   const notificationCount = objCounts && objCounts.length;
@@ -37,6 +39,10 @@ function Navbar() {
 
   const toggleClassName = () => {
     setIsCalssName(!isClassName);
+    setIsCartOpen(false);
+    setIsCategoryOpen(false);
+    
+    
   };
 
   useEffect(() => {

@@ -151,12 +151,13 @@
     justify-content: space-evenly;
    width: 90%;
    height: 30px;
+   border-bottom: 1px solid black;
 }
 .TotalContainer{
     width: 50%;
     height: auto;
     padding: 6px 5px;
-    border-bottom: 1px solid black;
+   
 }
 .cartCheckoutContainer{
     width: 50%;
@@ -167,4 +168,19 @@
     color: white;
    height: 100%;
    padding: 6px 5px;
+}
+@media screen and (max-width:500px) {
+  .cartContainer{
+    width: 100%;
+  } 
+  .cartCheckoutContainer{
+    font-size: 10px;
+    width:65%
+  } 
+ .TotalContainer{
+    width:35%;
+ }
+ .CartT{
+    font-size: 11px;
+ }
 }
