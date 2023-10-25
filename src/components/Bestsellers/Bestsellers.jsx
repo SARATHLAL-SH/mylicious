@@ -12,13 +12,13 @@ function Bestsellers() {
   const [combodatas, setComboDatas] = useState([]);
   const mycombodata = useContext(userContext);
   const {
-    itemCount,
+    
     setItemCount,
     objCounts,
     setObjCounts,
     addItemHandler,
     deleteHandler,
-    sellerId,
+
   } = useContext(userContext);
 
   useEffect(() => {
@@ -26,7 +26,7 @@ function Bestsellers() {
       mycombodata && setComboDatas(mycombodata.combodata);
       console.log(objCounts);
     }
-  });
+  },[]);
 
   const contDecrementHandler = (combdata) => {
     // addItemHandler(combdata);

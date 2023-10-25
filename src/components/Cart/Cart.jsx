@@ -14,16 +14,14 @@ function Cart() {
   const {
     combodata,
     count,
-    setCount,
+    
     cartarrayData,
     objCounts,
     setObjCounts,
-    itemCount,
+   
     setItemCount,
     deleteHandler,
-    cartArr,
-    isCartOpen,
-    setIsCartOpen,
+    
     toggleCart,
   } = useContext(userContext);
   // const [itemCount, setItemCount] = useState();
@@ -31,11 +29,11 @@ function Cart() {
 
   useEffect(() => {
     combodata && setItems(combodata);
-    combodata.map((myItem) => {
-      setPrice(myItem.selling_price);
-      setDiscount(myItem.discount);
-    });
-  }, [deleteHandler, objCounts]);
+    combodata.map((myItem) => (
+      setPrice(myItem.selling_price),
+      setDiscount(myItem.discount)
+  ));
+  }, [deleteHandler, objCounts,combodata]);
 
   const contDecrementHandler = (cartItems) => {
     const cartIncount =

@@ -1,17 +1,11 @@
 import React, { useEffect, useState, createContext } from "react";
 import axios from "axios";
-import Shop from "../Shoping/Shop";
-import Bestsellers from "../Bestsellers/Bestsellers";
-import Cart from "../../components/Cart/Cart";
-import Details from "../Details/Details";
+
 import { useNavigate } from "react-router-dom";
-
-
 
 export const userContext = createContext();
 
 function Context(props) {
- 
   const [combodata, setComboData] = useState([]);
   const [datas, setDatas] = useState([]);
   const [objCounts, setObjCounts] = useState([]);
@@ -19,23 +13,22 @@ function Context(props) {
   const [cartarrayData, setCartArrData] = useState([]);
   const cartArr = [cartarrayData];
   const [itemCount, setItemCount] = useState();
-  const [cartTotal, setCartTotal] = useState();
+
   const [sellerId, setSellerId] = useState();
   const navigate = useNavigate();
   const [searchTerm, setSearchTerm] = useState();
-  const [allItems, setAllItems] = useState();
+
   const [isCartOpen, setIsCartOpen] = useState(false);
-  const [isCategoryOpen, setIsCategoryOpen] = useState(false)
+  const [isCategoryOpen, setIsCategoryOpen] = useState(false);
   const [data1, setdata1] = useState([]);
   const [data2, setdata2] = useState([]);
   const [data3, setdata3] = useState([]);
   const [data4, setdata4] = useState([]);
   const alldata = [...data1, ...data2, ...data3, ...data4];
 
-  const toggleCategory=()=>{
+  const toggleCategory = () => {
     setIsCategoryOpen(!isCategoryOpen);
     setIsCartOpen(false);
-   
   };
   const deleteHandler = (mydata) => {
     const deleltedobj = cartarrayData.filter(
@@ -138,14 +131,14 @@ function Context(props) {
   const onSearchHandler = (e) => {
     setSearchTerm(e.target.value);
     console.log(searchTerm);
-    navigate('/search');
-    setIsCartOpen(false)
-    setIsCategoryOpen(false)
+    navigate("/search");
+    setIsCartOpen(false);
+    setIsCategoryOpen(false);
   };
-  const toggleCart = ()=>{
+  const toggleCart = () => {
     setIsCartOpen(!isCartOpen);
-    setIsCategoryOpen(false)
-   };
+    setIsCategoryOpen(false);
+  };
   //   console.log("combodata", combodata);
   return (
     <div>
@@ -170,10 +163,11 @@ function Context(props) {
           onSearchHandler,
           alldata,
           isCartOpen,
-          setIsCartOpen,toggleCart,
+          setIsCartOpen,
+          toggleCart,
           toggleCategory,
           isCategoryOpen,
-          setIsCategoryOpen
+          setIsCategoryOpen,
         }}
       >
         {props.children}
